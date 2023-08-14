@@ -1,0 +1,23 @@
+@font-face {
+    font-family:BAXAUTRIAL ;
+    src: url(../Bannner/font/BaxautrialRegular-JR7mm.otf);
+}
+
+.nome{
+    font-family: BAXAUTRIAL ;
+    letter-spacing: 3px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content:end ;
+    background-color: red;
+    
+}
+.buscador{
+    align-self:center ;
+    justify-self: end;
+}

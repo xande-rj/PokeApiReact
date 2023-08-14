@@ -1,0 +1,44 @@
+.formulario{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.formulario input {
+    width: 20%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.formulario select{
+    width: 3%;
+}
+.pokemon li{
+    list-style: none;
+}
+.pokemon p {
+    font-size: 1.5rem;
+}
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.types{
+    font-size: 1,5rem
+}
+.type {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pokemon h3{
+    font-size: 1.5rem
+}
